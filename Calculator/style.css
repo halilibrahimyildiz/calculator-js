@@ -1,0 +1,76 @@
+*,
+*::after {
+    border: 0;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: bisque;
+    padding: 32px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    max-width: 285px;
+}
+
+.display {
+    background-color: rgba(238, 230, 230, 0.952);
+    max-width: 245px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 30px 7px 30px 30px;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 288.2;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(238, 230, 230, 0.952);
+    margin-top: 5px;
+}
+
+input {
+    color: black;
+    font-size: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgba(238, 230, 230, 0.952);
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 178, 178);
+}
+
+button:active {
+    background-color: rgb(136, 136, 136);
+}
+
+.oto-margin {
+    margin: auto;
+}

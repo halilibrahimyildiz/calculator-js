@@ -71,6 +71,8 @@ button:active {
     background-color: rgb(136, 136, 136);
 }
 
-.oto-margin {
-    margin: auto;
+@media (max-width: 500px) {
+    button {
+        width: 65px;
+    }
 }
